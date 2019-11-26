@@ -76,7 +76,7 @@ def check_circular(sequence, overlap_length):
             return False
 
 def check_palindrome(sequence):
-    sequence_rc = reverse_complement(seq)
+    sequence_rc = reverse_complement(sequence)
     if sequence == sequence_rc:
         return True
 
